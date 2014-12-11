@@ -1,0 +1,1 @@
+"0805":[{"name":"DHT","id":1,"type":13,"max":200,"min":-50,"res":2,"data":23.000},{"name":"DHT","id":1,"type":12,"max":100,"min":0,"res":5,"data":45.000},{"name":"BMP","id":2,"type":6,"max":10200,"min":0,"res":20,"data":7600.0000},{"name":"BMP","id":2,"type":13,"max":250,"min":-20,"res":2,"data":23.5000}] 

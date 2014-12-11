@@ -1,0 +1,43 @@
+# JSON library, needed for PietteTech_Remote
+../JSMNSpark/jsmnSpark.h
+../JSMNSpark/jsmnSpark.cpp
+
+# PietteTech_Sensor: base class for all PietteTech Sensors
+../PietteTech_Sensor/firmware/PietteTech_Sensor.h
+../PietteTech_Sensor/firmware/PietteTech_Sensor.cpp
+
+# PietteTech_DHT: low level support for the DHT series sensors
+# needed for ClientDHT
+../PietteTech_DHT/firmware/PietteTech_DHT.h
+../PietteTech_DHT/firmware/PietteTech_DHT.cpp
+
+# PietteTech_DHT_U: unified class for DHT sensor
+# needed for ClientDHT
+../PietteTech_DHT_U/firmware/PietteTech_DHT_U.h
+../PietteTech_DHT_U/firmware/PietteTech_DHT_U.cpp
+
+# PietteTech_BMP: low level support for the BMP series sensors
+# needed for ClientDHTBMP
+#../PietteTech_BMP/firmware/PietteTech_BMP.h
+#../PietteTech_BMP/firmware/PietteTech_BMP.cpp
+
+# PietteTech_BMP_U: unified class for BMP sensor
+# needed for ClientDHTBMP
+#../PietteTech_BMP_U/firmware/PietteTech_BMP_U.h
+#../PietteTech_BMP_U/firmware/PietteTech_BMP_U.cpp
+
+# PietteTech_Remote: low level network sensor class
+firmware/PietteTech_Remote.cpp
+firmware/PietteTech_Remote.h
+
+# PietteTech_NET_U: unified class for Network sensor
+firmware/PietteTech_NET_U.cpp
+firmware/PietteTech_NET_U.h
+
+#
+# select the target below
+#
+#firmware/examples/Server.ino
+#firmware/examples/Client.ino
+firmware/examples/ClientDHT.ino
+#firmware/examples/ClientDHTBMP.ino

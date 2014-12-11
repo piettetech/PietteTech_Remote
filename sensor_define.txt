@@ -1,0 +1,1 @@
+"0805":[{"name":"DHT","id":1,"type":13,"max":200,"min":-50,"res":2,"data":23.000},{"name":"DHT","id":1,"type":12,"max":100,"min":0,"res":5,"data":45.000}] 
